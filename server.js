@@ -96,3 +96,5 @@ data.initialize().then(function(){
 }).catch(function(err){
     console.log("unable to start server: " + err);
 });
+
+module.exports = app;
